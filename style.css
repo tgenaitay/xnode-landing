@@ -1,0 +1,144 @@
+/* style.css */
+
+/* general body */
+/****************/
+
+body{
+  background: #FFFFFF;
+  color: #2E2E2E;
+  font-size: 15px;
+  font-family: Helvetica;
+  margin: 0 auto;
+}
+h1{
+  color: #FFFFFF;
+  font-weight: bolder;
+  font-size: 50px;
+}
+h2 {
+  color: #D42C14;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: #AB2513;
+}
+
+/****************/
+/* navbar */
+/****************/
+
+#navbar {
+  background:white;
+  padding:10px;
+  text-align: center;
+}
+
+/****************/
+/* header */
+/****************/
+
+#header{
+  text-align: center;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 50%), url("images/shanghai.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+
+#header p {
+  font-size: 25px;
+  margin:40px;
+}
+
+#header a.btn {
+  padding:15px;
+  text-decoration: none;
+}
+
+/****************/
+/* content */
+/****************/
+
+.container {
+  padding:20px 0px;
+  background-color: #F3F3F3;
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  background-color: white;
+  text-align:center;
+  width:200px;
+}
+
+.card img {
+  width:100px;
+}
+
+/****************/
+/* footer */
+/****************/
+
+#footer{
+  padding: 50px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text-align: center;
+  line-height: 2;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 20px;
+}
+#footer a:hover {
+  color: white;
+}
+
+#footer ul {
+  padding-left:0;
+  list-style: none;
+}
+
+#footer li {
+  display: inline-block;
+  padding:0px 10px;
+}
+
+/****************/
+/* forms */
+/****************/
+
+.input {
+  font-size: 18px;
+  height:50px;
+  padding:0px 15px;
+  background:white;
+  border:1px solid lightgray;
+  width:200px;
+  border-radius:3px;
+}
+
+.btn {
+  background:#D42C14;
+  color:white;
+  font-weight: bolder;
+  width:150px;
+  border:1px solid #AB2513;
+}
+
+.btn:hover {
+  background:#AB2513;
+  color:white;
+}
+
+
+
